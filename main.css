@@ -176,7 +176,7 @@ h3 {
 
 
 
-
+/* выравнивание футера без урока */
 .footer__container {
     display: flex;
     justify-content: center;
@@ -186,3 +186,5 @@ h3 {
     display: flex;
     justify-content: center;
 }
+
+
