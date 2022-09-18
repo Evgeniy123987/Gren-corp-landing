@@ -94,7 +94,6 @@ button {
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .form h1 {
@@ -153,11 +152,17 @@ button:hover {
     box-shadow: rgba(246 152 12 / 20%);
 }
 
+.footer {
+    padding: 90px 20px;
+    font-size: 16px;
+    font-weight: 600;
+} 
+
 .footer__group {
     margin-right: 80px;
 }
 
-h3 {
+footer h3 {
     font-size: 16px;
     opacity: 0.7;
     margin-bottom: 30px;
@@ -168,23 +173,16 @@ h3 {
     flex-direction: column;
 }
 
-.footer__links {
+.footer__links a {
     margin-bottom: 15px;
 }
 
-
-
-
-
-/* выравнивание футера без урока */
 .footer__container {
     display: flex;
     justify-content: center;
 }
 
 .footer__copyright {
-    display: flex;
-    justify-content: center;
-}
-
-
+    margin-top: 40px;
+    text-align: center;
+    opacity: 0.5;

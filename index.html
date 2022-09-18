@@ -9,32 +9,30 @@
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
-
+  <link rel="stylesheet" href="fontawesome-free-6.2.0-web\css\all.min.css">
 </head>
 <body>
   <header>
-    <img class="header__logo animate__animated animate__bounce" src="img/logo.svg">
+    <img class="header__logo" src="img/logo.svg">
     <div class="header__controls">
         <a href="#contacts">Контакты</a>
         <button>Заказать</button>
     </div>
   </header>
   <section class="about">
-    <div class="about__info">
+    <div class="about__info animate__animated animate__fadeInLeft">
         <h1>Солнечные панели GreenRobotic</h1>
         <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
-        <button>Узнать подробнее</button>
+          <button>Узнать подробнее<i class="fa-solid fa-angle-right"></i></button>
     </div>
-    <div class="about__image">
+    <div class="about__image animate__animated animate__fadeInRight">
         <img class="about__sun-image" src="img/sun.png">
         <img class="about__image" src="img/solar-panel.png">
     </div>
   </section>
   <section class="form">
       <div class="form__container">
-      <h1>
-        Оставьте свои контакты.
-      </h1>
+      <h1>Оставьте свои контакты.</h1>
       <p>
         Поможем подобрать модель.<br>
          Выбрать удобный вариант доставки и установки.<br>
@@ -55,7 +53,8 @@
         </div>
         <div class="form__group">
           <label for="budget">Примерный бюджет</label>
-          <select id="budget" placeholder="Выбирите вариант">
+          <select id="budget">
+            <option>Выберите вариант</option>
             <option value="10-30">10 000p - 30 000p</option>
             <option value="30-60">30 000p - 60 000p</option>
             <option value="60-100">60 000p - 100 000p</option>
@@ -65,7 +64,8 @@
         <button type="submit" class="form__submit">Отправить заявку</button>
       </form>
     </div>
-  </section>
+  </section>  
+
   <footer>
     <div class="footer__container">
       <div class="footer__group">
@@ -93,8 +93,9 @@
       </div>
     </div>
     <div class="footer__copyright">
-      <p>GreenCorp © 2021</p>
+      GreenCorp © 2021
     </div>
   </footer>
+  <script src="fontawesome-free-6.2.0-web\js\all.min.js"></script>
 </body>
 </html>
