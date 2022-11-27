@@ -16,7 +16,7 @@
   <header>
     <img class="header__logo" src="img/logo.svg">
     <div class="header__controls">
-        <a href="#contacts">Контакты</a>
+        <a href="#form">Контакты</a>
         <button>Заказать</button>
     </div>
   </header>
@@ -25,7 +25,7 @@
     <div class="about__info animate__animated animate__fadeInLeft">
         <h1>Солнечные панели GreenRobotic</h1>
         <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
-          <button>Узнать подробнее<i class="fa-solid fa-angle-right"></i></button>
+          <button class="more-button" href="#features">Узнать подробнее<i class="fa-solid fa-angle-right"></i></button>
     </div>
     <div class="about__image animate__animated animate__fadeInRight">
         <img class="about__sun-image" src="img/sun.png">
@@ -35,7 +35,7 @@
 
   <!-- Секция особености -->
 
-  <section class="features">
+  <section class="features" id="features">
     <div class="cards">
       <div class="card">
         <div class="card__logo yellow">
@@ -112,7 +112,7 @@
     </div>
   </section>
 
-  <section class="form">
+  <section class="form" id="form">
       <div class="form__container">
       <h1>Оставьте свои контакты.</h1>
       <p>
@@ -140,7 +140,7 @@
             <option value="10-30">10 000p - 30 000p</option>
             <option value="30-60">30 000p - 60 000p</option>
             <option value="60-100">60 000p - 100 000p</option>
-            <option value="100+">100 000p</option>
+            <option value="other">Другое</option>
           </select>
         </div>
         <button type="submit" class="form__submit">Отправить заявку</button>
