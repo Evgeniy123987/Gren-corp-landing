@@ -57,7 +57,8 @@ document.querySelector('#budget').addEventListener('change', function handleSele
       initIncreaseNumberAnimation();
     }
   }
-   
+  let animationInited = false;
+  
   window.addEventListener('scroll', updateScroll);
    
   window.addEventListener('scroll', updateScroll);
